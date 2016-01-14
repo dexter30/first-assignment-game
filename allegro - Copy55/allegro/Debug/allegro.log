@@ -1,0 +1,51 @@
+﻿Build started 14/01/2016 16:42:06.
+     1>Project "H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\allegro\allegro.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\allegro.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt enemy.cpp fileLoader.cpp main.cpp goalItem.cpp map.cpp menu.cpp pawn.cpp shuriken.cpp wall.cpp
+         wall.cpp
+         shuriken.cpp
+         pawn.cpp
+         menu.cpp
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\menu.cpp(25): warning C4101: 'lightedButton' : unreferenced local variable
+         map.cpp
+         goalItem.cpp
+         main.cpp
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(166): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(258): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\main.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+         fileLoader.cpp
+     1>h:\visual studio 2010\projects\allegro - copy55 (3)\allegro - copy55\allegro\fileloader.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+         enemy.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\Debug\allegro.exe" /NOLOGO alld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\allegro.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\Debug\allegro.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\Debug\allegro.lib" /MACHINE:X86 Debug\enemy.obj
+         Debug\fileLoader.obj
+         Debug\main.obj
+         Debug\goalItem.obj
+         Debug\map.obj
+         Debug\menu.obj
+         Debug\pawn.obj
+         Debug\shuriken.obj
+         Debug\wall.obj
+         LINK : H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\Debug\allegro.exe not found or not built by the last incremental link; performing full link
+         allegro.vcxproj -> H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\Debug\allegro.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\Debug\allegro.exe;#1" /manifest Debug\allegro.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\allegro.unsuccessfulbuild".
+         Touching "Debug\allegro.lastbuildstate".
+     1>Done Building Project "H:\Visual Studio 2010\Projects\allegro - Copy55 (3)\allegro - Copy55\allegro\allegro.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.56
